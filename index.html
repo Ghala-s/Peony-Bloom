@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Peony&Bloom</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/scripts.js" defer></script>
+
+
+
+</head>
+ <body onscroll="scroll();">
+
+
+    <section id="top">
+    <img src="img/banner.jpg" alt="Peony Bloom Candles" title="Banner" class="banner">
+    </section>
+
+     <section id="navsect">
+                <ul class="nav" id="nav">
+                    <a href="#about"><li class="box" id="l1">About</li></a>
+                    <a href="#products"><li class="box" id="l2">Products</li></a>
+                    <a href="#contact"><li class="box" id="l3">Contact</li></a>
+                    <a href="#references"><li class="box" id="l4">References</li></a>
+                </ul>
+            </section>
+     
+    
+    
+    <div id="msgBox"> </div>
+    <div  class="parallax-img" id = "para"> </div>
+    
+    
+<a name="about" id="s1"></a>
+    <section id="about">
+        <h2>About Our Products</h2>
+        <p> Peony & Bloom Candles is dedicated to create aromatic experiences for its customers. Our candles are thoughtfully crafted to bring warmth  to any space. We believe in spreading joy through simple yet meaningful products that brighten your day.</p>
+  <div class="icon-container">
+             <div class="icon-box">
+                <img src="img/eco.png" alt="Eco-Friendly" title="Eco-Friendly">
+                <p>Eco-Friendly & Sustainable</p>
+            </div>
+            <div class="icon-box">
+                <img src="img/handmade.png" alt="Handmade with Love" title="Handmade">
+                <p>Handmade with Love</p>
+            </div>
+            <div class="icon-box">
+                <img src="img/canada.png" alt="Made in Canada" title="Canada">
+                <p>Made in Canada</p>
+            </div>
+                  <div class="icon-box">
+                <img src="img/charity.png" alt="Lighting Lives with Every Purchase" title="Donation">
+                <p>Lighting Lives with Every Purchase</p>
+            </div>
+        </div>
+        
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="img/member1.jpg" alt="Lily" title="Lily">
+                <h3>Lily Bloom</h3>
+                <p>Founder</p>
+                 <p>Lily founded Peony Bloom Candles to share her love for exquisite aromas.
+                She is inspired by the way scents can evoke emotions.
+                Her precision and dedication in work led to our success.</p>
+            </div>
+            <div class="team-member">
+                <img src="img/member2.jpg" alt="Ghala" title="Ghala">
+                <h3>Ghala Basaad</h3>
+                <p>Website Developer</p>
+                <p> Ghala is the creative mind behind Peony Bloom Candles' online presence. She built and designed Peony Bloom website. She ensures that you have an engaging and satisfiable experience.</p>
+               
+            </div>
+            <div class="team-member">
+                <img src="img/member3.jpg" alt="Lavendar" title="Lavendar">
+                <h3>Lavendar Bloom</h3>
+                <p>Marketing Specialist</p>
+                <p>Lavender manages our marketing on social media.  
+                She creates engaging posts and shares our exclusive deals.  
+                She also ensures that you have an excellent service.</p>
+            </div>
+        </div>
+    </section>
+
+    <a name="products" id="s2"></a>
+    <section id="products">
+        <h2>Our Products</h2>
+        <section id="animation">
+    <div id="candle-container">
+        <img src="img/candle.png" alt="Moving Candle" id="candle">
+    </div>
+</section>
+        <div class="catalog">
+        <div class="product">
+            <img src="img/pink.jpg" alt="Cherry Blossom Candle" title="Cherry Blossom">
+            <h3>Pink Peony</h3>
+            <p>Product Code: CG003</p>
+            <p>An enchanting fusion where pear meets opulent peony and cherry blossom, evoking a sense of grace and charm.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img/lavender.jpg" alt="Lavender Bliss Candle" title="Lavender Bliss">
+            <h3>Lavender Bliss</h3>
+            <p>Product Code: LB001</p>
+            <p>A calming lavender-scented candle perfect for relaxation.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img/green.jpg" alt="Eucalyptus Mint Candle" title="Eucalyptus Mint">
+            <h3>Eucalyptus Mint</h3>
+            <p>Product Code: EE002</p>
+            <p>Jasmine blooms and moss creeps up  on the sandalwood. Take a deep breath and smooth your soul in the jungle.</p>
+            <button>Add to Cart</button>
+        </div>
+
+                        <div class="product">
+            <img src="img/red.jpg" alt="Rose Harmony Candle" title="Rose Harmony">
+            <h3>Rose Harmony</h3>
+            <p>Product Code: RH004</p>
+            <p>A romantic rose fragrance for special moments.</p>
+            <button>Add to Cart</button>
+        </div>
+               </div>
+    </section>
+
+    <a name="contacts" id="s3"></a>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+           <p>Name:</p>
+                <input type="text" name="name" id="name" onblur="checkName();" />
+            
+            <p>Phone Number:</p>
+                <input type="text" name="phone" id="phone" onblur="checkPhoneNumber();" />
+            
+            <p>Reason:</p>
+                <select id="reasonBox" onchange="updateReason();">
+                    <option>General Inquiry</option>
+                    <option>Pricing</option>
+                    <option>Product Info</option>
+                    <option>Shipping</option>
+                    <option>Other</option>
+                </select>
+
+    
+            <p id="productId" class="hidden">Product ID:</p>
+                <input type="text" name="id" id="id" class="hidden" onblur="checkId();" />
+            
+           <p>Message:</p>
+            <textarea id="message" name="message" onblur="checkMessage();" ></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <a name="references" id="s4"></a>
+    <section id="references">
+    <h2>References</h2>
+    <div class="references-container">
+        <table class="references-table">
+            <thead>
+                <tr>
+                    <th>Image Description</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Favicon</td>
+                    <td><a href="https://www.favicon.cc/" target="_blank">favicon.cc</a></td>
+                </tr>
+                <tr>
+                    <td>License Agreement</td>
+                    <td><a href="https://www.canva.com/policies/content-license-agreement/" target="_blank">Canva License Agreement</a></td>
+                </tr>
+                <tr>
+                    <td>Banner</td>
+                    <td>Designed by me</td>
+                </tr>
+                <tr>
+                    <td>Candle Background (Banner)</td>
+                    <td><a href="https://www.canva.com/photos/MAFlUXoxNvs/" target="_blank">Canva Candle Background</a></td>
+                </tr>
+                <tr>
+                    <td>Peony Outline (Banner)</td>
+                    <td><a href="https://www.canva.com/icons/MAFrQhhbLEg/" target="_blank">Canva Peony Outline</a></td>
+                </tr>
+                <tr>
+                    <td>Parallax Picture</td>
+                    <td><a href="https://www.canva.com/photos/MAEMVBO9Dfw/" target="_blank">Canva Parallax Picture</a></td>
+                </tr>
+
+            
+                <tr>
+                    <td>Canada Icon</td>
+                    <td><a href="https://www.canva.com/icons/MAEFiL8EGso/" target="_blank">Canva Canada Icon</a></td>
+                </tr>
+                <tr>
+                    <td>Leaf Icon</td>
+                    <td><a href="https://www.canva.com/icons/MAFSBct_gKw/" target="_blank">Canva Leaf Icon</a></td>
+                </tr>
+                <tr>
+                    <td>Charity Icon</td>
+                    <td><a href="https://www.canva.com/icons/MAFL2RE21p8/" target="_blank">Canva Charity Icon</a></td>
+                </tr>
+                <tr>
+                    <td>Handmade Icon</td>
+                    <td><a href="https://www.canva.com/icons/MAFmoX5Xkzk/" target="_blank">Canva Handmade Icon</a></td>
+                </tr>
+                <tr>
+                    <td>Founder Picture</td>
+                    <td><a href="https://www.canva.com/photos/MAEJMcDu5Mg/" target="_blank">Canva Founder Picture</a></td>
+                </tr>
+                <tr>
+                    <td>Developer Picture</td>
+                    <td><a href="https://www.canva.com/photos/MAEK5DEkyuU/" target="_blank">Canva Developer Picture</a></td>
+                </tr>
+                <tr>
+                    <td>Marketer Picture</td>
+                    <td><a href="https://www.canva.com/photos/MAEMVzdhOWY/" target="_blank">Canva Marketer Picture</a></td>
+                </tr>
+
+                <tr>
+                    <td>Candle Clipart (Animation)</td>
+                    <td><a href="https://www.canva.com/icons/MAF2T-8rrBg/" target="_blank">Canva Candle Clipart</a></td>
+                </tr>
+                <tr>
+                    <td>Purple Candle</td>
+                    <td><a href="https://www.canva.com/photos/MAEstI1Z_Tk/" target="_blank">Canva Purple Candle</a></td>
+                </tr>
+                <tr>
+                    <td>Green Candle</td>
+                    <td><a href="https://www.canva.com/photos/MAFjUKJY_rc/" target="_blank">Canva Green Candle</a></td>
+                </tr>
+                <tr>
+                    <td>Red Candle</td>
+                    <td><a href="https://www.canva.com/photos/MADy9Sbv-GI/" target="_blank">Canva Red Candle</a></td>
+                </tr>
+                <tr>
+                    <td>Pink Candle</td>
+                    <td><a href="https://www.canva.com/photos/MAD-MR_nkmU/" target="_blank">Canva Pink Candle</a></td>
+                </tr>
+                 <tr>
+                    <td>Flower Trail Texture</td>
+                    <td><a href="https://www.transparenttextures.com/flower-trail.html" target="_blank">Background Texture</a></td>
+                </tr>s
+                
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+
+ <a href="#banner" id="backtop"> Top</a>
+
+    <section> 
+        <div><p class="copyright"> Peony&Bloom Candles &copy;2024. All Rights Reserved.</p></div>
+    </section>
+
+</body>
+</html>
